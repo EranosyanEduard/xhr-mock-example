@@ -1,0 +1,25 @@
+{
+  "name": "sandbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --hot --open",
+    "test": "mocha test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "html-webpack-plugin": "^5.5.0",
+    "mocha": "^10.0.0",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.9.3",
+    "xhr-mock": "^2.5.1"
+  },
+  "dependencies": {
+    "path": "^0.12.7"
+  }
+}
